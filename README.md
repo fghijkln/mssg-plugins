@@ -11,6 +11,12 @@ mssg 的插件仓库。目前主要是 **Hugo 兼容 shortcode**：把对应 `.h
 | [vimeo](shortcodes/vimeo/) | Vimeo 视频嵌入 | `{{< vimeo >}}` |
 | [instagram](shortcodes/instagram/) | Instagram 帖子嵌入 | `{{< instagram >}}` |
 
+## AI 插件
+
+| 插件 | 说明 |
+|------|------|
+| [ai-writer](ai/ai-writer/) | AI 写作助手：续写、润色、扩写、起标题、写摘要 |
+
 ## 安装
 
 手动：复制 `shortcodes/<name>/<name>.html` 到你站点的 `templates/shortcodes/` 下。

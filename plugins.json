@@ -6,7 +6,9 @@
       "type": "shortcode",
       "version": "1.0.0",
       "description": "GitHub Gist 嵌入（Hugo {{< gist >}} 兼容）",
-      "files": ["shortcodes/gist/gist.html"],
+      "files": [
+        "shortcodes/gist/gist.html"
+      ],
       "install_to": "templates/shortcodes/gist.html"
     },
     {
@@ -14,7 +16,9 @@
       "type": "shortcode",
       "version": "1.0.0",
       "description": "Twitter/X 推文嵌入（Hugo {{< tweet >}} 兼容）",
-      "files": ["shortcodes/tweet/tweet.html"],
+      "files": [
+        "shortcodes/tweet/tweet.html"
+      ],
       "install_to": "templates/shortcodes/tweet.html"
     },
     {
@@ -22,7 +26,9 @@
       "type": "shortcode",
       "version": "1.0.0",
       "description": "Vimeo 视频嵌入（Hugo {{< vimeo >}} 兼容）",
-      "files": ["shortcodes/vimeo/vimeo.html"],
+      "files": [
+        "shortcodes/vimeo/vimeo.html"
+      ],
       "install_to": "templates/shortcodes/vimeo.html"
     },
     {
@@ -30,8 +36,20 @@
       "type": "shortcode",
       "version": "1.0.0",
       "description": "Instagram 帖子嵌入（Hugo {{< instagram >}} 兼容）",
-      "files": ["shortcodes/instagram/instagram.html"],
+      "files": [
+        "shortcodes/instagram/instagram.html"
+      ],
       "install_to": "templates/shortcodes/instagram.html"
+    },
+    {
+      "name": "ai-writer",
+      "type": "ai",
+      "version": "1.0.0",
+      "description": "AI 写作助手：续写、润色、扩写、起标题、写摘要（需在 App 里配置 AI 接口）",
+      "files": [
+        "ai/ai-writer/ai-writer.json"
+      ],
+      "install_to": "ai_plugins/ai-writer.json"
     }
   ]
 }
