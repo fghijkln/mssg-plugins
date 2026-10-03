@@ -9,7 +9,8 @@
       "files": [
         "shortcodes/gist/gist.html"
       ],
-      "install_to": "templates/shortcodes/gist.html"
+      "install_to": "templates/shortcodes/gist.html",
+      "description_en": "GitHub Gist embed (Hugo {{< gist >}} compatible)"
     },
     {
       "name": "tweet",
@@ -19,7 +20,8 @@
       "files": [
         "shortcodes/tweet/tweet.html"
       ],
-      "install_to": "templates/shortcodes/tweet.html"
+      "install_to": "templates/shortcodes/tweet.html",
+      "description_en": "Twitter/X tweet embed (Hugo {{< tweet >}} compatible)"
     },
     {
       "name": "vimeo",
@@ -29,7 +31,8 @@
       "files": [
         "shortcodes/vimeo/vimeo.html"
       ],
-      "install_to": "templates/shortcodes/vimeo.html"
+      "install_to": "templates/shortcodes/vimeo.html",
+      "description_en": "Vimeo video embed (Hugo {{< vimeo >}} compatible)"
     },
     {
       "name": "instagram",
@@ -39,7 +42,8 @@
       "files": [
         "shortcodes/instagram/instagram.html"
       ],
-      "install_to": "templates/shortcodes/instagram.html"
+      "install_to": "templates/shortcodes/instagram.html",
+      "description_en": "Instagram post embed (Hugo {{< instagram >}} compatible)"
     },
     {
       "name": "ai-writer",
@@ -49,7 +53,8 @@
       "files": [
         "ai/ai-writer/ai-writer.json"
       ],
-      "install_to": "ai_plugins/ai-writer.json"
+      "install_to": "ai_plugins/ai-writer.json",
+      "description_en": "AI writing assistant: continue, polish, expand, title, summarize (needs AI API configured in app)"
     },
     {
       "name": "ai-coder",
@@ -59,7 +64,8 @@
       "files": [
         "ai/ai-coder/ai-coder.json"
       ],
-      "install_to": "ai_plugins/ai-coder.json"
+      "install_to": "ai_plugins/ai-coder.json",
+      "description_en": "AI pair programming on your phone: complete, fix bugs, explain, comment, refactor"
     }
   ]
 }
