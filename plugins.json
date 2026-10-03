@@ -50,6 +50,16 @@
         "ai/ai-writer/ai-writer.json"
       ],
       "install_to": "ai_plugins/ai-writer.json"
+    },
+    {
+      "name": "ai-coder",
+      "type": "ai",
+      "version": "1.0.0",
+      "description": "AI 结对编程：手机上写代码的帮手——补全、修 Bug、讲代码、加注释、重构",
+      "files": [
+        "ai/ai-coder/ai-coder.json"
+      ],
+      "install_to": "ai_plugins/ai-coder.json"
     }
   ]
 }
