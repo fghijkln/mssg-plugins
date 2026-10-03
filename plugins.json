@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "name": "gist",
+      "type": "shortcode",
+      "version": "1.0.0",
+      "description": "GitHub Gist 嵌入（Hugo {{< gist >}} 兼容）",
+      "files": ["shortcodes/gist/gist.html"],
+      "install_to": "templates/shortcodes/gist.html"
+    },
+    {
+      "name": "tweet",
+      "type": "shortcode",
+      "version": "1.0.0",
+      "description": "Twitter/X 推文嵌入（Hugo {{< tweet >}} 兼容）",
+      "files": ["shortcodes/tweet/tweet.html"],
+      "install_to": "templates/shortcodes/tweet.html"
+    },
+    {
+      "name": "vimeo",
+      "type": "shortcode",
+      "version": "1.0.0",
+      "description": "Vimeo 视频嵌入（Hugo {{< vimeo >}} 兼容）",
+      "files": ["shortcodes/vimeo/vimeo.html"],
+      "install_to": "templates/shortcodes/vimeo.html"
+    },
+    {
+      "name": "instagram",
+      "type": "shortcode",
+      "version": "1.0.0",
+      "description": "Instagram 帖子嵌入（Hugo {{< instagram >}} 兼容）",
+      "files": ["shortcodes/instagram/instagram.html"],
+      "install_to": "templates/shortcodes/instagram.html"
+    }
+  ]
+}

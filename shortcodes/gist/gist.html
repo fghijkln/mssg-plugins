@@ -1,0 +1,9 @@
+{#- GitHub Gist 嵌入（Hugo {{< gist >}} 兼容）
+    用法：{{< gist USERNAME GISTID >}} 或 {{< gist GISTID >}}
+    变量：args（位置参数）、kwargs（键值参数）
+-#}
+{%- set username = kwargs.get("username") or (args[0] if args|length > 1 else "") -%}
+{%- set gistid = kwargs.get("id") or (args[1] if args|length > 1 else (args[0] if args|length > 0 else "")) -%}
+{%- if gistid -%}
+<script src="https://gist.github.com/{{ username ~ '/' if username }}{{ gistid }}.js"></script>
+{%- endif -%}

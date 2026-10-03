@@ -1,0 +1,9 @@
+{#- Vimeo 视频嵌入（Hugo {{< vimeo >}} 兼容）
+    用法：{{< vimeo 视频ID >}}
+-#}
+{%- set vid = kwargs.get("id") or (args[0] if args else "") -%}
+{%- if vid -%}
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://player.vimeo.com/video/{{ vid }}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen title="vimeo video"></iframe>
+</div>
+{%- endif -%}
